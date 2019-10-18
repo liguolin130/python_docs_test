@@ -1,0 +1,237 @@
+<!--css布局演示-->
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <meta charset="utf-8">-->
+<!--    <title>news paper</title>-->
+<!--    <style type="text/css">-->
+<!--    .cf1{color:#172c45;font-size:16px}-->
+<!--    .box1{height:40px;width:285px;}-->
+<!--    .box2{height:80px;width:285px;background:red}-->
+<!--    .box3{height:190px;width:285px;}-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div class="box1">-->
+<!--<hr style="color:#c8dcf2;">-->
+<!--<span class="cf1">今日头条</span>-->
+<!--<a style="float:right;color:#172c45;font-size:12px" href="http://www.baidu.com">更多>></a>-->
+<!--</div>-->
+<!--<div class="box2">-->
+<!--<img src="./images/news.png" style="width:100%;height:100%"> &lt;!&ndash;图片百分百适应盒子&ndash;&gt;-->
+<!--</div>-->
+<!--<div class="box3">-->
+<!--    <p style="font-size:12px;color:#737373;line-height:30px">-->
+<!--        &nbsp;&nbsp;人工智能(Artifical Inteligence),英文缩写为AL-->
+<!--    ,他是研究,开发用于模拟和扩展人的智能的理论,-->
+<!--    人工智能(Artifical Inteligence),英文缩写为AL他是研究,开发用于模拟和扩展人的智能的理论</p>-->
+<!--    <hr style="color:#c8dcf2;">-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--css盒子模型-->
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <meta charset="utf-8">-->
+<!--    <title>make box</title>-->
+<!--    <style type="text/css">-->
+<!--        .box{-->
+<!--             width:200px;height:200px;color:blue;font-size:30px;-->
+<!--             border:10px solid red;-->
+<!--             padding:0px ;-->
+<!--             margin: 50px;-->
+<!--            }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="box">-->
+<!--        This is a content;-->
+<!--        <ul>-->
+<!--            <li><a href="http://www.baidu.com">标题一</a></li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+<!--注册表单实例-->
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <meta charset="utf-8">-->
+<!--    <title>注册表单</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <form>-->
+<!--        <p>姓名:<input type="text" name="username"/></p>-->
+<!--        <label>密码:</label>-->
+<!--            <input type="password" name="password"/>-->
+<!--           <p>-->
+<!--               性别:<input type="radio" name="gender" value="0"/>男-->
+<!--               <input type="radio" name="gender" value="1"/>女-->
+<!--           </p>-->
+<!--            <label>爱好:</label>-->
+<!--            <input type="checkbox" name="like" value="sing">唱歌-->
+<!--            <input type="checkbox" name="like" value="run">跑步-->
+<!--            <input type="checkbox" name="like" value="swiming">游泳-->
+<!--        </p>-->
+<!--        <p>-->
+<!--            <label>照片:</label>-->
+<!--            <input type="file" name="persion_pic">-->
+<!--        </p>-->
+<!--        <p>-->
+<!--            <label>个人描述:</label>-->
+<!--            <textarea name="about"></textarea>-->
+<!--        </p>-->
+<!--        <p>-->
+<!--            <lable>籍贯:</lable>-->
+<!--            <select>-->
+<!--                <option value="0">甘肃</option>-->
+<!--                <option value="1">北京</option>-->
+<!--                <option value="2">天津</option>-->
+<!--                <option value="3">上海</option>-->
+<!--            </select>-->
+<!--        </p>-->
+<!--        <p>-->
+<!--            <input type="submit" name="" value="提交">-->
+<!--            <input type="reset" name="" value="重置">-->
+<!--        </p>-->
+<!--    </form>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+<!--<script type="text/javascript">-->
+<!--var num = 1-->
+<!--var st = '123asd'-->
+<!--function f(){-->
+<!--    alert(st)//输出语句-->
+<!--};-->
+<!--f();-->
+<!--</script>-->
+
+<!--<script type="text/javascript">-->
+<!--function ff(n1,n2){-->
+<!--    var sum = n1+n2-->
+<!--    return sum; //return关键字,返回值或者对象-->
+<!--    alert('this!')-->
+<!--};-->
+<!--var f = ff(2,3);-->
+<!--alert(f)-->
+<!--</script>-->
+
+<!--<script type="text/javascript">-->
+<!--var num1 = 4;-->
+<!--var num2 = 5;-->
+<!--var st;-->
+<!--if(num1>num2){-->
+<!--    st='max';-->
+<!--}-->
+<!--else if(num1<num2){-->
+<!--    st='min';-->
+<!--}-->
+<!--else{-->
+<!--    st='=';-->
+<!--}-->
+<!--alert(st)-->
+<!--</script>>-->
+
+<!---操作元素属性-->
+<!--<script type="text/javascript">-->
+<!--window.onload = function(){-->
+<!--    var onInput = document.getElementById('input1');-->
+<!--    var oA = document.getElementById('link1');-->
+<!--    //就读属性-->
+<!--    var sValue = onInput.value;-->
+<!--    var sType = onInput.type;-->
+<!--    var sName = onInput.name;-->
+<!--    var sLinks = oA.href;-->
+<!--    //写设置属性-->
+<!--    oA.style.color = 'red'-->
+<!--    oA.style.fontSize = 'sValue'-->
+<!--</script>-->
+<!--<input type="text" name="setsize" id="input1" value="20px">-->
+<!--<a href="http://www.itcast.cn" id="link1">传智播客</a>>-->
+
+<!--<script type="text/javascript">-->
+<!--function ff(){-->
+<!--    var alist = [[1,2,3],['a','b','c'],[6,78,9]]-->
+<!--    var list2 = new Array(1,3,5)-->
+<!--    //alert(alist.join("*")) //join将数组成员用一个分隔符连接成一个字符串-->
+<!--    // alist.push(55)  // push()在数组最后添加成员-->
+<!--    // alist.pop()     // pop()删除数组最后一个成员-->
+<!--    // alist.reverse() // 将数组反转-->
+<!--    // alist.indexOf(1) //返回数组中第一次出现的索引值-->
+<!--    // alist.splice(1,1,5,6,7) //从第一个元素开始删除一个元素,然后在这个位置增加5,6,7(1,5,6,7,3,4)-->
+
+<!--    // alist里面有三个数组,每个数组里面又有成员,所以-->
+<!--    // 所以就是 :多维数组指的就是数组的成员也是数组的数组-->
+<!--    for(var a=0;a<alist.length;a++) {-->
+<!--        for(var b=0;b<3;b++) {-->
+
+<!--        }-->
+<!--         alert(alist[a][b])-->
+<!--    }-->
+<!--    // alert(list2)-->
+<!--    }-->
+<!--f = ff()-->
+<!--</script>>-->
+
+<!---数组去重练习-->
+<!--<script type="text/javascript" charset="utf-8">-->
+<!--function funs(){-->
+<!--    var list1 = [1,2,3,4,5,5,4,3,2,1,6,7,1,6,5];-->
+<!--    var list2 = [];-->
+<!--    for(var a=0;a<list.length;a++){-->
+<!--        if(list1.indexOf(list1[a])==a){-->
+<!--            list2.push(a)-->
+<!--        }-->
+<!--    }-->
+<!--    alert(list2)-->
+<!--}-->
+<!--</script>-->
+
+
+<!---封闭式函数的命名-->
+<!--<script type="text/javascript">-->
+<!--    // (function(){-->
+<!--    //     alert('hello')-->
+<!--    // })();-->
+<!--    !function(){-->
+<!--        alert('hello22')-->
+<!--    }();-->
+<!--</script>-->
+
+
+<!--// javascript对象,可以理解为一个键值对的集合,键是调用每一个值的,值可以是基本变量,-->
+<!--// 还可以是函数和对象.创建javascript的方法有两种:一是通过顶级object类来实例化一个-->
+<!--// 对象,然后在对象上面添加属性和方法.-->
+<!--<script type="text/javascript">-->
+<!--var person = new Object();-->
+<!--// 添加属性-->
+<!--person.name = 'liguolin';-->
+<!--person.age = '20';-->
+<!--// 添加方法-->
+<!--person.sayname = function(){-->
+<!--    alert(this.name);-->
+<!--}-->
+<!--// 调用方法-->
+<!--person.sayname();-->
+<!--alert(person.age);-->
+<!--</script>-->
+
+
+window.onload = function(){
+    var vm = new Vue({
+        el:'#app',
+        data:{message:'hello world!'}
+    });
+}
+
+<div id="app">{{ message }}</div>
+ist"></ul>
